@@ -1,0 +1,31 @@
+# Dépendances pour le projet de Maintenance Prédictive
+# Installation : pip install -r requirements.txt
+
+# IMPORTANT : Compatible avec Python 3.13
+# Si vous avez Python 3.13, ces versions fonctionneront
+
+# Core Machine Learning (versions compatibles Python 3.13)
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# Visualisation
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Sauvegarde de modèles
+joblib>=1.3.0
+
+# Application Web Flask
+Flask>=3.0.0
+Flask-CORS>=4.0.0
+
+# Optionnel : pour des modèles plus avancés
+# xgboost>=2.0.0
+# lightgbm>=4.1.0
+
+# Optionnel : pour l'IA générative (si vous utilisez OpenAI)
+# openai>=1.6.0
+
+# Utilitaires
+python-dateutil>=2.8.0
